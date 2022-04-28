@@ -1,0 +1,83 @@
+*{
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+
+}
+
+h1{
+    font-size: 3rem;
+}
+.error-text{
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+}
+
+.mainpage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh; 
+   
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50vh;
+    height: 60vh;
+    justify-content: center;
+    font-size: 1.5rem;
+    background-color: rgb(102, 19, 76);
+    color: white;
+    text-transform: uppercase;
+    margin: 1rem;
+    padding: 1.5rem;
+    border: .2rem solid black;
+    border-radius: 20%;
+    }
+.form label{
+    margin: 1rem;
+}
+.form input{
+    margin-bottom: 1rem;
+}
+.form button{
+    text-transform: uppercase;
+    padding: .5rem;
+    margin-top: .5rem;
+}
+
+.imgholder{
+    width: 15rem;
+    height: 15rem;
+    margin: 2rem;
+    background-color: white;
+    border: .2rem solid black;
+}
+
+.imgStyle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: black;
+    text-align: center;
+    margin-top: 2rem;
+    width: 25rem;
+    height: 25rem;
+}
+
+#imgholder{
+    position: absolute;
+}
+
+
